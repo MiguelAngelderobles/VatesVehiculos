@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
     public static void main(String [] args){
 
-        Auto peugeot=new Auto("Peugeot","206",4,200000.00);/*reodenar*/
+        Auto peugeot=new Auto("Peugeot","206",4,200000.00);
         Auto peugeot1=new Auto("Peugeot","208",5,250000.00);
         Moto honda=new Moto("Honda","Titan",125,60000.00);
         Moto yamaha=new Moto("Yamaha","YBR",160,80500.50);
@@ -42,19 +42,5 @@ public class Main {
 
 
 
-        /*char conseguirletraodigito=object.getMetodo.charAt(4)<-5ta posicion;
-        *public boolean equals(Object o){
-        * if(this==o)return true;
-        * if(o==null o getClass()!= o.getObjectClass() ) return false;
-        * Figura figura=(Figura)o;
-        * return Objects.equals(getColor(),figura.getColor()) and Object.equals(area(),figura.area();)}
-        *
-        * public int hashCOde(){
-        * return Objects.hash(getColor(),area())
-        *
-        * System.out.println(persona1)(sout);
-        *
-        * ;}
-        * */
     }
 }
